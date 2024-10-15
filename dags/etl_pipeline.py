@@ -41,7 +41,7 @@ def load_to_postgres():
     # Load the CSV data into a pandas DataFrame
     df = pd.read_csv('/tmp/raw_data.csv')
     
-    # Create the 'raw_data' table if it doesn't exist
+    # Create the 'raw_data_table' table if it doesn't exist
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS raw_data_table (
             "Date" date,
