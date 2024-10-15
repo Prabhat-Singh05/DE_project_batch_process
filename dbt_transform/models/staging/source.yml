@@ -1,0 +1,9 @@
+version: 2
+
+
+sources:
+  - name: raw-data
+    schema: public
+    description: The data source is coming from database loaded into postgres from raw_data_table table
+    tables:
+      - name: raw_data_table

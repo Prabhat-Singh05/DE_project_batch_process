@@ -1,0 +1,6 @@
+boto3
+kafka-python==2.0.2
+sqlalchemy
+psycopg2-binary
+pandas
+

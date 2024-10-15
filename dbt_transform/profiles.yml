@@ -1,0 +1,11 @@
+dbt_transform:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: airflow
+      password: airflow
+      dbname: airflow
+      port: 5431
+      schema: public

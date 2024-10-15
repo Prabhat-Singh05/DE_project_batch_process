@@ -1,0 +1,25 @@
+
+version: 2
+
+models:
+  - name: transform_data_table
+    columns:
+      - name: "transform_data_table.Date"
+        data_tests:
+          - not_null
+
+      - name: "transform_data_table.Domain"
+        data_tests:
+          - not_null
+
+      - name: "transform_data_table.Location"
+        data_tests:
+          - not_null
+
+      - name: "transform_data_table.Total_Amount"
+        data_tests:
+          - not_null
+
+      - name: "transform_data_table.Transaction_count"
+        data_tests:
+          - not_null
