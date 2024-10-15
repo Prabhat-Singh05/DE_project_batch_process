@@ -1,4 +1,5 @@
 # DE Project Module
 
 
-![Final Architecture](https://github.com/user-attachments/assets/849534de-e3bc-4bd5-b7e4-151b5264f677)
+<img width="717" alt="image" src="https://github.com/user-attachments/assets/aea6d98e-d294-4333-93ca-864c8eb5a158">
+
