@@ -47,5 +47,5 @@ Note - the data file is converted to csv file format which is kept in data folde
 ### Clone Repository:
 
 To clone this repository, open terminal, type the following command:
-```bash
+```
 git clone https://github.com/Prabhat-Singh05/DE_project_batch_process.git
