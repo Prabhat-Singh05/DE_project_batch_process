@@ -34,7 +34,7 @@ has no connection to any business. There are almost a million records in this da
 
 Source link: https://www.kaggle.com/datasets/ksabishek/massive-bank-dataset-1-million-rows
 
-Note - the data file is converted to csv file format which is kept in data directory 
+Note - the data file is converted to csv file format which is kept in data folder. 
 
 ## Data Sturcture:
 - Date - The date on which the transaction took place.
@@ -45,3 +45,7 @@ Note - the data file is converted to csv file format which is kept in data direc
 
 ## Complete Setup:
 ### Clone Repository:
+
+To clone this repository, open terminal, type the following command:
+
+git clone https://github.com/Prabhat-Singh05/DE_project_batch_process.git
