@@ -43,9 +43,9 @@ Note - the data file is converted to csv file format which is kept in data folde
 - Total_Amount - Total value of transaction.
 - Transaction_count - total number transaction happend on the particular date.
 
-## Complete Setup:
+## Project Setup:
 ### Clone Repository:
 
 To clone this repository, open terminal, type the following command:
-
+```
 git clone https://github.com/Prabhat-Singh05/DE_project_batch_process.git
