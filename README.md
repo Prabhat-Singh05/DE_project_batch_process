@@ -99,4 +99,36 @@ docker compose up -d
 
 - trigger the dag
 - once the dag is completed. Setup Postgres GUI to access the database use --port 5431 && user and password is "airflow"
-
+- Check the raw_data_table is created and all data is populated correctly
+- Open a new terminal and use the cmd to create a venv:
+```
+python -m venv dbt-env				# create the environment
+```
+- activate the environment for Mac and Linux
+```
+source dbt-env/bin/activate
+```
+- Install dbt-core
+```
+pip install dbt-core
+```
+- Install dbt-postgres adapter
+```
+pip install dbt-postgres
+```
+- change working directry to dbt_transform folder
+```
+cd ./dbt_transform
+```
+```
+dbt init       #to initialize dbt in the folder
+```
+- To check connection between dbt and postgre
+```
+dbt debug
+```
+- To build table and check data qaulity test
+```
+dbt build
+```
+- Once the process is completed. Check in postgres the transform_data_table is created and all data is populated correctly
