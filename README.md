@@ -49,3 +49,11 @@ Note - the data file is converted to csv file format which is kept in data folde
 To clone this repository, open terminal, type the following command:
 ```
 git clone https://github.com/Prabhat-Singh05/DE_project_batch_process.git
+
+```
+
+### Prerequisite:
+Make sure you have install docker desktop & docker compose in you system.
+
+link - https://www.docker.com/products/docker-desktop/
+
