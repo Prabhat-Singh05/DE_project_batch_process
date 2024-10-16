@@ -50,6 +50,9 @@ To clone this repository, open terminal, type the following command:
 ```
 git clone https://github.com/Prabhat-Singh05/DE_project_batch_process.git
 ```
+```
+cd DE_project_batch_process
+```
 
 ### Prerequisite:
 Make sure you have install docker desktop & docker compose in you system.
