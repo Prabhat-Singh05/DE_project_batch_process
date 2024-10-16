@@ -80,4 +80,23 @@ Note: the access key is given in the submission document copy it from there
 ```
 chmod +x entrypoint.sh
 ```
-- open 
+- open docker desktop app
+- Then again VS code terminal and run the below cmd to build the image:
+```
+docker build -t my_airflow_image:v1.0 .
+```
+- check the docker image
+```
+docker imagaes
+```
+- To run docker container
+```
+docker compose up -d
+```
+- Once the the container is up and running:
+  * open your browser to enter http://localhost:8080 to access airflow
+  * Username and password is provided in entrypoint.sh file copy from there.
+
+- trigger the dag
+- once the dag is completed. Setup Postgres GUI to access the database use --port 5431 && user and password is "airflow"
+
