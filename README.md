@@ -56,3 +56,28 @@ Make sure you have install docker desktop & docker compose in you system.
 
 link - https://www.docker.com/products/docker-desktop/
 
+To check if the intstallation is completed properly
+```
+docker compose version
+```
+
+Also, install Postgres GUI 
+
+### Environment
+
+Create a file .env at the root dirtectly level folder and provide the access key and secret key:
+```
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+```
+Note: the access key is given in the submission document copy it from there
+
+### For running the code
+
+- Open VScode and open terminal
+
+- In linux/Mac give access to entrypoint.sh file 
+```
+chmod +x entrypoint.sh
+```
+- open 
