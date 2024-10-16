@@ -28,3 +28,20 @@ The pipeline is broken into the following components:
 ![image](https://github.com/user-attachments/assets/92d7feb6-7d59-4eac-8510-9f5bd6b0c010)
 
 
+## Data Source:
+The project's data set was sourced from Kaggle; it is a randomly created Python dataset that
+has no connection to any business. There are almost a million records in this dataset.
+
+Source link: https://www.kaggle.com/datasets/ksabishek/massive-bank-dataset-1-million-rows
+
+Note - the data file is converted to csv file format which is kept in data directory 
+
+## Data Sturcture:
+- Date - The date on which the transaction took place.
+- Domain - Where or which type of Business entity made the transaction.
+- Location - Where the data is collected from.
+- Total_Amount - Total value of transaction.
+- Transaction_count - total number transaction happend on the particular date.
+
+## Complete Setup:
+### Clone Repository:
