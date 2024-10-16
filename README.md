@@ -1,4 +1,4 @@
-# DE Project Batch Processing
+# DE Project - Batch Processing Pipeline
 
 ## Overview: 
 In this project, we design and build a batch-processing data pipeline that takes raw data from a local file, uploads it to AWS S3, processes the data, and then stores it in PostgreSQL after applying transformations using dbt (Data Build Tool). The pipeline leverages popular data engineering tools such as Kafka for real-time streaming, Airflow for orchestration, and Docker for containerizing and managing dependencies.
@@ -24,6 +24,7 @@ The pipeline is broken into the following components:
 - Airflow: As the orchestrator, automating the entire workflow from data ingestion to transformation.
 - Docker: To ensure that the whole project can be run on any system, regardless of local dependencies or configurations.
 
+## Pipeline Architecture:
 ![image](https://github.com/user-attachments/assets/92d7feb6-7d59-4eac-8510-9f5bd6b0c010)
 
 
