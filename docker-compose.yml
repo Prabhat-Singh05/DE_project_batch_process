@@ -53,10 +53,5 @@ services:
       - ./entrypoint.sh:/entrypoint.sh
     entrypoint: ["/entrypoint.sh"]
 
-#   dbt:
-#     image: xemuliam/dbt
-#     volumes:
-#       - ./dbt:/usr/app/dbt
-
 volumes:
   postgres_data:
