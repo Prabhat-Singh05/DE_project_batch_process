@@ -48,6 +48,7 @@ services:
       - kafka
       
     volumes:
+      - ./data:/opt/airflow/data
       - ./dags:/opt/airflow/dags
       - ./airflow:/opt/airflow
       - ./entrypoint.sh:/entrypoint.sh
