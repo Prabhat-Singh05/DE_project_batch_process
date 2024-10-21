@@ -136,6 +136,8 @@ dbt build
 ```
 - Once the process is completed. Check in postgres the transform_data_table is created and all data is populated correctly
 
+### 4.	Future Scope of Improvements for the Project:
+
 •	Real-time Ingestion: Expand to real-time data processing with Kafka for continuous data streams.
 •	Enhanced Security: Implement encryption in S3, RBAC for Airflow and Kafka, and integrate with LDAP or OAuth.
 •	Data Quality Checks: Use tools like Great Expectations for data validation and monitoring.
@@ -146,5 +148,5 @@ dbt build
 •	Additional Data Formats: Support formats like Avro, Parquet, and more data sources.
 •	Data Governance: Use lineage tools for auditing and tracking data flows.
 •	Backup & Recovery: Implement automatic backups and disaster recovery plans for PostgreSQL and S3 data.
-![image](https://github.com/user-attachments/assets/150673bf-f9b8-4b86-8648-4aab214b2bfc)
+
 
